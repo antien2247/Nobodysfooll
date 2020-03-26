@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet');
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+.header-top{
+    padding: 15px 25px 45px 20px;
+    background-color: #2e2e2e;
+    color: #9f9f9f;
+}
+.header-top-left{
+    float: left;
+
+}
+.header-top-right{
+    font-size: 25px;
+    float: right;
+    line-height: 15px;
+}
+
+.header-top-left span:hover{
+    color: blue;
+}
+.header-top-right i:hover{
+    color: red;
+}
+.progress-bar{
+    width: 8%;
+}
+.nav-top .nav-item .nav-link{
+    color: #2e2e2e;
+}
+.nav-top .nav-item .nav-link:hover{
+    color: #9f9f9f;
+}
+.header-center-left h1{
+    font-size: 4em;
+    padding: 60px 0 0 0;
+    color: #333333;
+}
+.header-center-left span{
+    color: #999999;
+}
+.header-center-right{
+    float: right;
+}
+.header-center-right form{
+    margin-top: -40px;
+}
+.header-center-right form button{
+    color: #ffffff;
+    background-color: #0099ff;
+    border: 1px solid #0099ff;
+}
+.header-bottom{
+    margin-top: 50px;
+    background-color: #f1f1f1;
+}
+.header-bottom .header-bottom-left{
+    margin: 150px 0 0 0px;
+    padding-left: 90px;
+}
+.header-bottom .header-bottom-left button{
+    background-color: #0099ff;
+    color: #ffffff;
+    border: 1px solid #0099ff;
+}
