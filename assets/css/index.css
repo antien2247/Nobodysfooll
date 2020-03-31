@@ -1,14 +1,5 @@
-/*@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet');*/
-/*body {*/
-    /*font-family: 'Lato', sans-serif;*/
-    /*font-size: 15px;*/
-    /*margin: 0;*/
-/*}*/
-@font-face{
-    /*src: url(assets/font/Georgia.ttf);*/
-    src: url(assets/font/Georgia Bold Italic font.ttf);
-    font-family: Georgia;
-
+body{
+    font-family: 'Georgia Regular';
 }
 .header-top{
     padding: 15px 25px 45px 20px;
@@ -108,6 +99,73 @@
 }
 .content-bottom-right button{
     margin-top: 12px;
-    font-size: 30px;
+    font-size: 28px;
     color: #e4e2e2;
+}
+/*footer*/
+.footer{
+    background-color: #1a1a1a;
+    margin-top: 50px;
+    padding-top:50px;
+    padding-left: 100px;
+}
+.ft1 h6,.ft2 h6,.ft3 h6,.ft4 h6{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.ft1 div{
+    text-align: left;
+    color: #666666;
+}
+.ft1 a{
+    padding-left: 170px;
+}
+.ft2 div{
+    border-bottom: #232323 solid 1px;
+    color: #0099ff;
+    padding-bottom: 10px;
+}
+.ft3 h5{
+    color: #666666;
+    font-size: 18px;
+}
+.ft3 div{
+    color: #666666;
+    text-align: left;
+    line-height: 18px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.ft3 div a{
+    padding-left: 170px;
+}
+.ft4 div input{
+    background-color: #232323;
+    color: #989898;
+    width: 75%;
+}
+.ft4 textarea{
+    background-color: #232323;
+    color: #989898;
+    width: 75%;
+    height: 100px;
+
+}
+.ft4 button{
+    margin-top: 25px;
+}
+.ft4 button:hover{
+    background-color: #666666;
+    color: #1a1a1a;
+}
+.footer-bottom{
+    background-color: #222222;
+    color: #666666;
+    padding: 20px 0 10px 10px
+}
+.footer-bottom a{
+    color: #666666;
+}
+.footer-bottom .end{
+    padding-left: 800px;
 }
