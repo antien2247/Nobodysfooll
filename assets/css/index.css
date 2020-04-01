@@ -113,6 +113,9 @@ body{
     color: #ffffff;
     padding-bottom: 20px;
 }
+.ft1 img{
+    height: 90px;
+}
 .ft1 div{
     text-align: left;
     color: #666666;
@@ -120,6 +123,7 @@ body{
 .ft1 a{
     padding-left: 170px;
 }
+
 .ft2 div{
     border-bottom: #232323 solid 1px;
     color: #0099ff;
@@ -153,10 +157,12 @@ body{
 }
 .ft4 button{
     margin-top: 25px;
+    background-color: #0099ff;
 }
 .ft4 button:hover{
     background-color: #666666;
     color: #1a1a1a;
+    border: #666666 solid 1px;
 }
 .footer-bottom{
     background-color: #222222;
@@ -167,5 +173,5 @@ body{
     color: #666666;
 }
 .footer-bottom .end{
-    padding-left: 800px;
+    padding-left: 750px;
 }
